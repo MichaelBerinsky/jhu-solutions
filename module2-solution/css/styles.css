@@ -34,7 +34,7 @@ p {
 .row {
 	width: 100%;
 }
-.menu-box {
+.menu-box { 
 	background-color: #808080;
 	border: 5px solid black;
 	margin: 10px;
