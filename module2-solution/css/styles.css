@@ -2,63 +2,65 @@
 	font-family: "Times New Roman", Times, serif;
 	box-sizing: border-box;
 }
-body {
-	margin: 0;
-	padding: 0;
-}
 h1 {
 	text-align: center;
 	margin: 20px;
 }
 h3 {
-	display: block;
-	background-color: red;
 	float: right;
 	position: relative;
 	margin-top: 0;
-	margin-right: -10px;
+	margin-bottom: 0px;
 	border-left: 2.5px solid black;
 	border-bottom: 2.5px solid black;
 	width: 150px;
 	text-align: center;
 }
-p {
-	padding: 5px;
-	clear: right;
+#chicken-title {
+	background-color: #B22222;
+	color: #FFFAF0;
 }
-.menu-item {
-	background-color: gray;
-	border: 5px solid black;
-	padding: 0px 10px 10px 10px;
-	margin: 20px;
-	position: relative;
+#beef-title {
+	background-color: #FAEBD7;
+}
+#sushi-title {
+	background-color: #4B0082;
+	color: #FFF0F5;
+}
+p {
+	padding: 10px;
+	margin-top: 20px;
 }
 .row {
 	width: 100%;
 }
+.menu-box {
+	background-color: #808080;
+	border: 5px solid black;
+	margin: 10px;
+}
 /*desktop*/
 @media (min-width: 992px) {
 	.col-md-4 {
-		width: calc(33.33% - 40px);
+		width: calc(33.33% - 20px);
 		float: left;
 	}
 }
-
 /*tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-sm-6 {
-		width: calc(50% - 40px);
+		width: calc(50% - 20px);
 		float: left;
 	}
 	.col-sm-12 {
-		width: calc(100% - 40px);
+		width: calc(100% - 20px);
 		float: left;
 	}
 }
 /*mobile*/
 @media (max-width: 767px) {
 	.col-xs-12 {
-		width: calc(100% - 40px);
+		width: calc(100% - 20px);
 		float: left;
 	}
 }
