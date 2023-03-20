@@ -5,6 +5,7 @@
 h1 {
 	text-align: center;
 	margin: 20px;
+	font-size: 1.75em;
 }
 h3 {
 	float: right;
@@ -15,6 +16,7 @@ h3 {
 	border-bottom: 2.5px solid black;
 	width: 150px;
 	text-align: center;
+	font-size: 1.25em;
 }
 #chicken-title {
 	background-color: #B22222;
@@ -30,6 +32,7 @@ h3 {
 p {
 	padding: 10px;
 	margin-top: 20px;
+	font-size: 1em;
 }
 .row {
 	width: 100%;
@@ -41,25 +44,25 @@ p {
 }
 /*desktop*/
 @media (min-width: 992px) {
-	.col-md-4 {
+	.col-lg-4 {
 		width: calc(33.33% - 20px);
 		float: left;
 	}
 }
 /*tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-sm-6 {
+	.col-md-6 {
 		width: calc(50% - 20px);
 		float: left;
 	}
-	.col-sm-12 {
+	.col-md-12 {
 		width: calc(100% - 20px);
 		float: left;
 	}
 }
 /*mobile*/
 @media (max-width: 767px) {
-	.col-xs-12 {
+	.col-sm-12 {
 		width: calc(100% - 20px);
 		float: left;
 	}
